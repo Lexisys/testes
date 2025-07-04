@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  background: #fff5f8;
+  color: #6b4e55;
+  text-align: center;
+}
+
+header {
+  background: #f9c5d1;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+header p {
+  margin-bottom: 20px;
+}
+
+header button {
+  padding: 10px 20px;
+  background: #d94e6d;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.mentors .mentor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.mentor img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.offer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.offer li {
+  margin: 10px 0;
+}
+
+.pricing button {
+  padding: 10px 20px;
+  background: #d94e6d;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-grid img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.join form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.join input {
+  padding: 10px;
+  border: 1px solid #d94e6d;
+  border-radius: 20px;
+}
+
+.join button {
+  padding: 10px;
+  background: #d94e6d;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background: #d94e6d;
+  color: white;
+  padding: 20px;
+}
